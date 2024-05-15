@@ -11,3 +11,4 @@ _Atividades da Etapa 1: As seguintes atividades devem ser entregues:_
 
 ## Documentos:
 
+*Adicionado a branch "entregas".*
