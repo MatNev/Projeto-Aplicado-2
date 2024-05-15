@@ -523,3 +523,42 @@ env = ViaturasAmbiente(dados_crime=dados_crime)
 agent = QLearningAgent(n_states=env.n_states, n_actions=env.n_states)
 
 print(simular_dias_corridos(env, agent, dados_crime))
+
+
+# Testes de acurácia
+
+
+def avaliar_agente(env, agent, dados_crime, episodios=10):
+    total_crimes = 0
+    crimes_detectados = 0
+
+    for episodio in range(episodios):
+        estado = env.reset()
+        done = False
+
+        while not done:
+            acao = agent.choose_action(estado)
+            novo_estado, _, done, _ = env.step(acao)
+
+            # Verifica se a ação leva a um crime detectado
+            crime_detectado = env.verificar_crime_detectado(novo_estado)
+            if crime_detectado:
+                crimes_detectados += 1
+
+            total_crimes += 1
+            estado = novo_estado
+
+    taxa_detectacao = crimes_detectados / total_crimes if total_crimes > 0 else 0
+    return taxa_detectacao
+
+def verificar_crime_detectado(self, estado):
+    viatura_coords = self.grafo_cidade.nodes[estado]['y'], self.grafo_cidade.nodes[estado]['x']
+    for _, crime in self.dados_crime.iterrows():
+        crime_coords = (crime['latitude'], crime['longitude'])
+        distancia = geodesic(viatura_coords, crime_coords).meters
+        if distancia <= 300:  # Se a viatura está dentro de um raio de 300m de um crime
+            return True
+    return False
+
+taxa_detectacao = avaliar_agente(env, agent, dados_crime)
+print(f"Taxa de detecção de crimes: {taxa_detectacao}")
