@@ -1,7 +1,7 @@
  # Descrição
 
-O Projetos Aplicados 2 apresentará um projeto de ciência de dados que contemplara a manipulação de imagens ou texto.
-O projeto utilizará conteúdos ministrados em componentes curriculares do terceiro semestre do curso de Tecnologia em Ciência de Dados, listados a seguir.
+O Projeto Aplicado 2 apresentará um projeto de ciência de dados que contemplará a manipulação de imagens ou texto.
+O projeto utilizará conteúdos ministrados em componentes curriculáres do terceiro semestre do curso de Tecnologia em Ciência de Dados, listados a seguir.
 
 - ANÁLISE ESTATÍSTICA PREDITIVA 
 - APRENDIZADO DE MÁQUINA I
@@ -10,11 +10,10 @@ O projeto utilizará conteúdos ministrados em componentes curriculares do terce
 - TÓPICOS DE BANCO DE DADOS
 - PROJETO APLICADO II
 
-Desta forma, Projeto Aplicado II deve integrar o conhecimento adquirido no cur-
-so até o momento. Para isso, seguiremos um cronograma de etapas.
+Desta forma, Projeto Aplicado II deve integrar o conhecimento adquirido no curso até o momento. Para isso, seguiremos um cronograma de etapas.
 
 
- ### Etapa 1: Começando o projeto – Kick-off 
+ ### Etapa 1: Começando o projeto – 'Kick-off' 
  Apresentação, objetivos, metas e milestones do projeto.
 
 
@@ -59,7 +58,7 @@ _Finalização: 27/04/2024_
  
 Objetivos: Nesta etapa, o projeto deve estar concluído, assim como a apresentação do Data Storytelling. Deve-se entregar o documento final, em forma de relatório técnico; o link para o repositório GitHub com os scripts; a apresentação em PowerPoint do storytelling; e a gravação da apresentação, disponibilizada no YouTube, com o link no GitHub.
  
-_Finalizaçõ: 31/05/2024_
+_Finalizaçõ: 19/05/2024_
 
   # Metas
 
