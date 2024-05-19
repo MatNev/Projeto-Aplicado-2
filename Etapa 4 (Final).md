@@ -5,7 +5,7 @@ _Atividades da Etapa 4: As seguintes atividades devem ser entregues:_
 | Relatório técnico | Relatório técnico do projeto. | LEANDRO | CONCLUÍDO | 13/05/24 |
 | Storytelling | Apresentação do Storytelling Pode ser um arquivo PPT ou similares. | LEANDRO | CONCLUÍDO | 14/05/24 |
 | GitHub atualizado | Repositório no GitHub com todos arquivos do projeto. | MATHEUS | CONCLUÍDO | 18/05/24 |
-| Vídeo | Vídeo com a apresentação no YouTube, usando a técnica do Storytelling | FRANCIELE | CONCLUÍDO | 17/05/24 |
+| Vídeo | Vídeo com a apresentação no YouTube, usando a técnica do Storytelling | MATHEUS | CONCLUÍDO | 17/05/24 |
 
 
 
@@ -13,3 +13,5 @@ _Atividades da Etapa 4: As seguintes atividades devem ser entregues:_
 
 
 *Adicionado a branch "entregas".*
+
+*Vídeo adicionado a branch "entregas".*
